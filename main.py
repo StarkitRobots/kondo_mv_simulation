@@ -7,6 +7,8 @@ from ball_Approach_Steps_Seq import steps
 import math, time, sys
 
 #import pyb
+
+
 HEIGHT_OF_CAMERA = 412.5
 HEIGHT_OF_NECK = 44
 DIAMETER_OF_BALL = 80
@@ -1031,7 +1033,7 @@ if __name__=="__main__":
             motion.walk_Final_Pose()
         motion.turn_To_Course(u2)
     motion.kick(LEFT)
-    motion.sim_Progress(1)
+    motion.sim_Progress(100)
     motion.sim_Stop()
     #motion.print_Diagnostics()
     motion.sim_Disable()

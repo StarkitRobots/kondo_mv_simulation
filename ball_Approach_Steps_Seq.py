@@ -2,7 +2,7 @@
 # Module is designed by Vladimir Tkach
 
 import math
-from class_Motion import *
+#from class_Motion import *
 from ball_Approach_calc import ball_Approach_Calc
 
 
