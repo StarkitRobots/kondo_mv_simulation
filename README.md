@@ -1,6 +1,6 @@
-## kondo_simulation
+# kondo_simulation
  Required software for running a simulation with a Kondo robot
-## Installing 
+ 
 #Instal on Ubuntu 18.04
  Download the current version of CoppeliaSim educational version from site https://www.coppeliarobotics.com/ubuntuVersions
 #Start 
