@@ -6,6 +6,8 @@ from ball_Approach_calc import ball_Approach_Calc
 from ball_Approach_Steps_Seq import steps
 import math, time, sys
 
+sys.path.append('SIM/kondo_sim/')
+
 #import pyb
 HEIGHT_OF_CAMERA = 412.5
 HEIGHT_OF_NECK = 44
@@ -106,7 +108,7 @@ class Motion:
         self.Vision_Sensor_Display_On = True
         self.falling_Flag = 0
         self.neck_pan = 0
-        with open("calibr.txt", 'r') as f:
+        with open('calibr.txt', 'r') as f:
             self.neck_calibr = int(f.read())
         self.neck_tilt = self.neck_calibr
         self.direction_To_Attack = 0
